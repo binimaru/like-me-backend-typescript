@@ -1,0 +1,26 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "test",
+    "start": "tsnd --respawn src/app.ts"
+  },
+  "author": "Omar Fadel",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-status-codes": "^2.1.4",
+    "lodash": "^4.17.20",
+    "mongoose": "^5.11.14",
+    "ts-node-dev": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "@types/http-status-codes": "^1.2.0",
+    "@types/lodash": "^4.14.168",
+    "@types/mongoose": "^5.10.3",
+    "@types/node": "^14.14.22",
+  }
+}
